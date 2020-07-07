@@ -92,8 +92,19 @@ p{
 
 .header{
 	text-align:center;
-	background:url(../img/back.jpg) left top repeat;
+	/* background:url(../img/back.jpg) left top repeat; */
 	padding:280px 0;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url(../img/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 .logo{
 	width:800px;
