@@ -106,6 +106,7 @@ p{
   background-size: cover;
   background-position: 50% 50%;
 }
+
 .logo{
 	width:800px;
 	margin:0 auto 35px;
@@ -260,11 +261,17 @@ color: #fff;
 	.iq-features {
 		display: none;
 	}
+	#particles-js{
+		height: 50%;
+	}
 }
 
 @media only screen and (min-width: 1026px) {
 	#service {
 		display: none;
+	}
+	#particles-js{
+		height: 100%;
 	}
 }
 
