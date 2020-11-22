@@ -1,6 +1,9 @@
 <!doctype html>
 <html>
 <head>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, maximum-scale=1">
 
@@ -516,6 +519,31 @@
         You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Knight
     -->
 </footer>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.1.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCzPu-swp_A5j4RvDYwqASP9FghDKheU6U",
+    authDomain: "genixlabsweb.firebaseapp.com",
+    databaseURL: "https://genixlabsweb.firebaseio.com",
+    projectId: "genixlabsweb",
+    storageBucket: "genixlabsweb.appspot.com",
+    messagingSenderId: "323621561929",
+    appId: "1:323621561929:web:cb681799eef50c68400198",
+    measurementId: "G-VMEFVR9Q8N"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 
 
 <script type="text/javascript">
