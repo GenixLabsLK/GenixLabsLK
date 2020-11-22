@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "public",
+    "appAssociation": "AUTO",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+	"rewrites": [ { "source": "/estimate/**", "dynamicLinks": true }, { "source": "/invoice/**", "dynamicLinks": true }  ]
+  }
+}
